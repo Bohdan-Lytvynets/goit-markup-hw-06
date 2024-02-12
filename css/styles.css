@@ -72,15 +72,13 @@ ul, ol {
 /* ============ teg-main =========== */
 .title-section {
     background: #2e2f42;
-    width: 1440px;
-    height: 600px;
 }
 
 .title-page {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -96,11 +94,8 @@ ul, ol {
     cursor: pointer;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04em
-}
-
-.buttin-col {
-    color: #ffffff
+    letter-spacing: 0.04em;
+    color: #ffffff;
 }
 
 .title-button:hover,
@@ -170,6 +165,7 @@ ul, ol {
 }
 
 /* ============ section-portfolio =============== */
+
 .section-our-portfolio {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -203,20 +199,17 @@ ul, ol {
     background-color: #2e2f42;
 }
 
-/* .logo-footer {
+.logo .logo-footer {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
         line-height: 1.16667;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #f4f4fd;
-} */
-.logo .logo-footer {
-    color: #f4f4fd;
+        color: #f4f4fd
 }
 
-.paragraph {
+.footer-paragraph {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
