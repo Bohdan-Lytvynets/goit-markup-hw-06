@@ -118,11 +118,11 @@ ul, ol {
     color: #434455;
 }
 
+/* ============ section-our-team ============ */
 .section-three {
     background-color: #F4F4FD
 }
 
-/* ============ section-our-team ============ */
 .section-our-team {
     font-family: "Roboto", sans-serif;
         font-weight: 700;
@@ -134,12 +134,8 @@ ul, ol {
         color: #2e2f42;
 }
 
-.li-section-our-team {
-    background-color: #FFFFFF
-}
-
 .ul-our-team {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 
 .title-our-team {
@@ -207,14 +203,8 @@ ul, ol {
         color: #4d5ae5;
 }
 
-.div-logo .logo-footer {
-    font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.16667;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #f4f4fd
+.div-logo .logo-text {
+    color: #f4f4fd;
 }
 
 .footer-paragraph {
