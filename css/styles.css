@@ -428,6 +428,7 @@ p {
 }
 
 .web-footer {
+    display: inline-block;
     color: #f4f4fd;
     line-height: 1.17;
 }
