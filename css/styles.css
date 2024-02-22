@@ -408,12 +408,6 @@ p {
     padding: 100px 0;
 }
 
-.container-footer {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-content: center;
-}
 
 .studio-footer {
     display: inline-block;
