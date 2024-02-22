@@ -222,9 +222,7 @@ p {
 
 .benefits-list {
     display: flex;
-    padding-top: 120px;
     gap: 24px;
-
 }
 
 
@@ -235,11 +233,14 @@ p {
 
 
 .title-benefits {
-    font-family: "Roboto", sans-serif;
+font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
+
+    line-height: 24px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #2e2f42;
     margin-bottom: 8px;
 }
@@ -299,11 +300,6 @@ p {
 
 .list-item {
     background-color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
 }
@@ -337,13 +333,6 @@ p {
     padding: 120px 0 120px 0;
 }
 
-.container-our-portfolio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .section-our-portfolio {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -360,12 +349,12 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+    gap: 42px;
+    column-gap: 24px ;
 }
 
 .list-portfolio {
     width: calc((100% - 72px) / 3);
-    margin-bottom: 48px;
 }
 
 .list-portfolio:nth-last-child(-n+3) {
@@ -380,7 +369,6 @@ p {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 .title-our-portfolio {
