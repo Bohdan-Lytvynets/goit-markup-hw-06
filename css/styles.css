@@ -349,12 +349,13 @@ font-family: "Roboto", sans-serif;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 42px;
-    column-gap: 24px ;
+    row-gap: 48px;
+    column-gap: 24px;
 }
 
 .list-portfolio {
     width: calc((100% - 72px) / 3);
+
 }
 
 .list-portfolio:nth-last-child(-n+3) {
