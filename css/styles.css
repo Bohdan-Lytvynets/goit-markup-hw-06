@@ -509,8 +509,6 @@ p {
 /* ============ footer ============ */
 .footer {
     background-color: #2e2f42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
     padding: 100px 0;
 }
 
@@ -547,11 +545,6 @@ p {
 }
 
 .footer-logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 32px;
-    align-items: baseline;
     margin-right: 120px;
 }
 
