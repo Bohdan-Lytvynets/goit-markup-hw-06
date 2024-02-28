@@ -177,7 +177,7 @@ p {
     display: flex;
     align-items: center;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bagraund-title.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bagraund-title.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -544,6 +544,7 @@ p {
 .container-footer {
     display: flex;
     align-items: baseline;
+    margin-right: 120px;
 }
 
 .footer-logo {
