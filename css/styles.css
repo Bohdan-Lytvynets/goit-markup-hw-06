@@ -510,10 +510,8 @@ p {
 .footer {
     background-color: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
     padding: 100px 0;
 }
-
 
 .studio-footer {
     display: inline-block;
@@ -535,7 +533,7 @@ p {
 
 .footer-paragraph {
     line-height: 1.5;
-    color: #F4F4FD;
+    color: #f4f4fd;
     letter-spacing: 0.02em;
     width: 264px;
     vertical-align: top;
@@ -545,6 +543,7 @@ p {
     display: flex;
     align-items: baseline;
     margin-right: 120px;
+    justify-content: space-between;
 }
 
 .footer-logo {
@@ -552,8 +551,6 @@ p {
     flex-direction: column;
     align-items: center;
     margin-bottom: 32px;
-    align-items: baseline;
-    margin-right: 120px;
 }
 
 .social-links {
@@ -570,6 +567,7 @@ p {
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 16px;
+    margin-right: 551px;
 }
 
 .ul-social-links {
