@@ -89,23 +89,6 @@ p {
     color: #2e2f42;
 }
 
-.current {
-    position: relative;
-    color: #404bbf;
-}
-
-.current::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    border-radius: 2px;
-    background-color: #404bbf;
-    height: 4px;
-    width: 100%;
-
-}
-
 .nav-link {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -127,6 +110,23 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #404bbf;
+}
+
+.current {
+    position: relative;
+    color: #404bbf;
+}
+
+.current::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    border-radius: 2px;
+    background-color: #404bbf;
+    height: 4px;
+    width: 100%;
+
 }
 
 .address-header {
@@ -236,28 +236,21 @@ p {
     width: 1128px;
 }
 
-.icon-our-team{
+.svg-container{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 112px;
-    background-color: #f4f4fd;
-    border-radius: 4px;
     margin-bottom: 8px;
-    gap: 24px;
-}
-
-.icon-our-team-list{
-    display: flex;
-    width: 264px;
-    height: 112px;
-    align-items: center;
-    justify-content: center;
     border: 1px solid #8e8f99;
     border-radius: 4px;
     background: #f4f4fd;
 }
 
+.svg-shadow {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+    
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -335,7 +328,6 @@ margin-bottom: 72px;
 }
 
 .ul-our-team {
-    /* background-color: #FFFFFF; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -493,6 +485,8 @@ margin-bottom: 72px;
     flex-direction: column;
     align-items: center;
     margin-bottom: 32px;
+    align-items: baseline;
+    margin-right: 120px;
 }
 
 .social-links {
