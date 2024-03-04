@@ -715,6 +715,9 @@ p {
     width: 24px;
     height: 24px;
     fill: #2e2f42;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .mobal-close-btn-icon {}
@@ -737,8 +740,6 @@ p {
     margin-top: 72px;
     margin-bottom: 16px;
 }
-
-.review-form {}
 
 .review-form-field-label {
     margin-bottom: 8px;
@@ -814,8 +815,6 @@ p {
     margin-bottom: 24px;
 }
 
-.review-chekbox {}
-
 .review-lable-check {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -845,4 +844,27 @@ p {
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
+}
+
+.review-castom-checkbox {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    cursor: pointer;
+    fill: transparent;
+    margin-right: 8px;
+}
+
+.review-chekbox:checked + .review-lable-check .review-castom-checkbox {
+    background-color: #404bbf;
+    border-color: #404bbf;
+    fill: #f4f4fd;
+}
+
+.review-chekbox:focus + .review-lable-check .review-castom-checkbox {
+    outline: 1px solid rgba(77, 90, 229, 0.8);
 }
