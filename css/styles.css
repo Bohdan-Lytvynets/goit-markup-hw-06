@@ -595,13 +595,10 @@ p {
     fill: #f4f4fd;
 }
 
+/* ============== */
 .subscribe-footer {
     min-width: 453px;
     height: 80px;
-}
-
-.subscribe-box {
-   margin-right: 24px;
 }
 
 .subscribe-paragraf {
