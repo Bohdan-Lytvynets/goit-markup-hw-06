@@ -696,7 +696,7 @@ p {
     transform: translate(-50%, -50%);
 
     border-radius: 4px;
-    min-width: 408px;
+    width: 408px;
     min-height: 584px;
     padding: 72px 24px 24px 24px;
 
