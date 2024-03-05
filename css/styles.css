@@ -752,10 +752,6 @@ p {
     margin-bottom: 8px;
 }
 
-.last-div-form{
-    margin-bottom: 16px;
-}
-
 .review-label {
     display: block;
     font-family: "Roboto", sans-serif;
@@ -828,7 +824,7 @@ p {
 
 /* ======= */
 .review-form-checkbox {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .review-lable-check {
