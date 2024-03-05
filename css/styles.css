@@ -752,6 +752,10 @@ p {
     margin-bottom: 8px;
 }
 
+.review-form .review-form-field-label:nth-child(4) {
+    margin-bottom: 16px;
+}
+
 .review-label {
     display: block;
     font-family: "Roboto", sans-serif;
@@ -824,7 +828,7 @@ p {
 
 /* ======= */
 .review-form-checkbox {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .review-lable-check {
