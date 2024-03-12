@@ -140,10 +140,6 @@ img {
     visibility: inherit;
 }
 
-.container-menu-mobail {
-
-}
-
 .mobaal-close-btn-menu {
     background-color: transparent;
     padding: 0;
@@ -182,9 +178,6 @@ img {
     min-height: 200px;
     margin-top: 72px;
     margin-bottom: 168px;
-}
-
-.list-mobail-nav {
 }
 
 .link-mabail-nav {
@@ -372,17 +365,160 @@ img {
 }
 /* ------------- /header styles ------------- */
 /* -------------- section-1 styles ------------- */
+.container-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
+.title-section {
+   background: #2e2f42;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.title-page {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0.02em;
+}
+
+.title-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+    background: #4d5ae5;
+
+    display: block;
+    margin: 0 auto;
+
+    border-radius: 4px;
+    padding: 16px 32px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.title-button:hover,
+.title-button:focus {
+    background-color: #404bbf;
+}
+
+@media only screen and (max-width: 767px) {
+.title-section {
+    min-width: 320px;
+    min-height: 432px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-tel/Dark-bg-tel-min.png);
+}
+
+.title-page {
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    margin-bottom: 42px;
+    margin-top: 72px;
+    width: 216px;
+    height: 160px;
+}    
+}
+
+@media only screen and (min-resolution: 192dpi) and (max-width: 767px){
+.title-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-tel/Dark-bg-telx2-min.png);
+}
+}
+
+@media only screen and (min-width: 768px) {
+.title-section {
+    min-width: 768px;
+    min-height: 436px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-table/bg-tablet-min.png);
+}
+
+.title-page  {
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 36px;
+    margin-top: 112px;
+    width: 496px;
+    height: 120px;
+}
+}
+
+@media only screen and (min-resolution: 192dpi) and (min-width: 768px) {
+.title-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-table/bg-tabletx2-min.png);
+}
+}
+
+@media only screen and (min-width: 1158px) {
+.title-section {
+    min-width: 1440px;
+    min-height: 600px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bagraund-title.jpg);
+}
+
+.title-page {
+    margin-bottom: 48px;
+    margin-top: 188px;
+}
+}
+
+@media only screen and (min-resolution: 192dpi) and (min-width: 1158px) {
+.title-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img2x/bagraund-title2x-min.png);
+}
+}
 /* ------------- /section-1 styles ------------- */
 /* -------------- section-2 styles ------------- */
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 1158px) {}
 /* ------------- /section-2 styles ------------- */
 /* -------------- section-3 styles ------------- */
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 1158px) {}
 /* ------------- /section-3 styles ------------- */
 /* -------------- section-4 styles ------------- */
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 1158px) {}
 /* ------------- /section-4 styles ------------- */
 /* -------------- footer styles ------------- */
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 1158px) {}
 /* ------------- /footer styles ------------- */
 /* -------------- backdrop styles ------------- */
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 1158px) {}
 /* ------------- /backdrop styles ------------- */
 /* -------------- moba-list styles ------------- */
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 1158px) {}
 /* ------------- /moba-list styles ------------- */
