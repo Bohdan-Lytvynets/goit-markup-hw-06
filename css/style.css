@@ -934,7 +934,6 @@ img {
 .subscribe-input {
     border: 1px solid #ffffff;
     border-radius: 4px;
-    width: 288px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     padding-left: 16px;
@@ -1046,6 +1045,10 @@ img {
     height: 136px;
 }
 
+.subscribe-input {
+    width: 288px;
+}
+
 .subscribe-paragraf {
     text-align: center;
 }
@@ -1086,7 +1089,12 @@ img {
 }
 
 .subscribe-footer {
-    margin-right: 20px;
+    margin-right: 40px;
+    min-width: 453px;
+}
+
+.subscribe-input {
+    width: 264px;
 }
 }
 
@@ -1125,6 +1133,14 @@ img {
 .ul-social-links {
     display: flex;
     gap: 16px;
+}
+
+.subscribe-input:focus {
+    border-color: #4d5ae5;
+}
+
+.subscribe-input {
+    width: 264px;
 }
 }
 /* ------------- /footer styles ------------- */
